@@ -1,0 +1,70 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 30px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.grid-column {
+    background-color: grey;
+}
+
+.vid {
+    display: flex;
+}
+
+#info-cell {
+    text-align: center;
+    color: #000000;
+    font-size: 60px;
+    font-display: Arial;
+    grid-column:1;
+    grid-row: 1 / 5;
+}
+
+#tutorial-cell {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#annotation-cell {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#tutorials {
+    overflow-y: scroll;
+    background-color: aqua;
+    height: 200px;
+    width: 100%;
+}
+
+#video-cell {
+    grid-column: 3 / 6;
+    grid-row: 1 / 5;
+}
+
+#testplayer {
+    width: 50%;
+    height: 400px;
+}
+#testplayer2 {
+    width: 50%;
+    height: 400px;
+}
+
+.grid-container2 {
+    display: grid;
+    overflow-y: scroll;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-row-gap:10px;
+    grid-column-gap: 5px;
+}
+
+.entry {
+    height: 50px;
+    widows: 50px;
+}

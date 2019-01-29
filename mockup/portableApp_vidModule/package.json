@@ -1,0 +1,17 @@
+{
+  "name": "vid-module-v0",
+  "version": "1.0.0",
+  "description": "a portable instance of 2 video players side by side with added functionality for various use",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Dmendelo",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9",
+    "video.js": "^7.4.1",
+    "videojs-framebyframe": "^1.0.1"
+  }
+}

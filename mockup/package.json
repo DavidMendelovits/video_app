@@ -1,0 +1,17 @@
+{
+  "name": "mockup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "videojs.framebyframe.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9",
+    "video.js": "^7.4.1",
+    "videojs-framebyframe": "^1.0.1"
+  }
+}

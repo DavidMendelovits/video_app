@@ -1,0 +1,17 @@
+body {
+    display: flex;
+}
+
+#player-container {
+    display: flex;
+}
+
+#leftPlayer {
+    width: 50vw;
+    height: 100vh;
+}
+
+#rightPlayer {
+    width: 50vw;
+    height: 100vh;
+}
